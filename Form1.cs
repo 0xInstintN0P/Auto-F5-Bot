@@ -49,6 +49,7 @@ namespace S4LeagueAutoF5
             else
             {
                 MessageBox.Show("Game Close!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                metroChecker1.Enabled = false;
             }
         }
 
