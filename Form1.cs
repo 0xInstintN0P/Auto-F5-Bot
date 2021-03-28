@@ -24,7 +24,10 @@ namespace S4LeagueAutoF5
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            tF5.Enabled = false;
+            tAutoClick.Enabled = false;
+            tEscape.Enabled = false;
+            Application.Exit();          
         }
 
         private void metroChecker1_CheckedChanged(object sender, bool isChecked)
